@@ -1,5 +1,5 @@
 import React from 'react';
-import LogoCasaSonho from "../../../public/logoCasaSonho.jpg";
+import LogoCasaSonho from "../../../public/logoCasaSonho.svg";
 import Image from "next/image";
 
 const Works = () => {
