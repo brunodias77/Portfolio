@@ -8,8 +8,8 @@ import { TbBrandNextjs } from "react-icons/tb";
 
 const About = () => {
     return (
-        <section id='about' className='bg-background_secondary px-4 py-10'>
-            <div className='container mx-auto'>
+        <section id='about' className='bg-background_primary w-full md:static'>
+            <div className='items-center px-4 max-w-screen-xl mx-auto md:flex md:flex-col md:px-8'>
                 <SectionTitle title='Sobre' />
                 <div className="flex flex-col justify-center items-center  lg:items-start lg:flex-row gap-10">
                     <div className="md:w-1/2 flex flex-col items-center gap-4">

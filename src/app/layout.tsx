@@ -4,7 +4,6 @@ import { JetBrains_Mono } from 'next/font/google'
 import Footer from "@/components/Footer"
 import Header from "@/components/Header"
 const myJetBrains_Mono = JetBrains_Mono({ subsets: ['latin'] })
-import HeaderTest from "@/components/HeaderTest"
 
 export const metadata: Metadata = {
   title: "Portfolio | Bruno Dias",
@@ -20,7 +19,7 @@ export default function RootLayout({
     <html lang="pt-BR">
       <body className={myJetBrains_Mono.className}>
         <div className="flex flex-col min-h-screen md:min-h-[calc(100vh + 10rem)]">
-          <HeaderTest />
+          <Header />
           <main className="flex-1">
             {children}
           </main>
