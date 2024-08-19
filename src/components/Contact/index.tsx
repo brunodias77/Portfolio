@@ -5,8 +5,8 @@ import { AiFillGithub, AiFillLinkedin, AiFillInstagram, AiOutlineTwitter } from 
 
 const Contact = () => {
     return (
-        <section id="contact" className='bg-background_primary'>
-            <div className="container mx-auto p-7">
+        <section id="contact" className='bg-background_secondary'>
+            <div className="container mx-auto p-7 md:p-9">
                 <SectionTitle title="Contato" />
                 <div className='grid md:grid-cols-2  gap-10 pb-24 relative items-center'>
                     <div className="z-10 text-xl">

@@ -1,6 +1,8 @@
 "use client"
 import { useState } from 'react';
 import { AiFillGithub, AiFillLinkedin, AiFillInstagram } from "react-icons/ai";
+import D from "../../../public/icone-d.svg";
+import Image from 'next/image';
 
 const Header = () => {
 
@@ -33,9 +35,18 @@ const Header = () => {
         <nav className="bg-background_secondary w-full md:static">
             <div className="items-center px-4 max-w-screen-xl mx-auto md:flex md:px-8">
                 <div className="flex items-center justify-between py-3 md:py-5 md:block">
-                    <div className="text-white">
-                        <span className="font-bold text-xl">Bruno</span>
-                        <span className="text-green_400 font-bold text-sm">Dias</span>
+                    <div className="text-white flex items-center justify-center gap-3">
+                        <Image
+                            src={D}
+                            alt="Logo Bruno Dias"
+                            height={23}
+                            width={23}
+                            className=""
+                        />
+                        <div className=''>
+                            <span className="font-bold text-xl">Bruno</span>
+                            <span className="text-green_400 font-bold text-sm">Dias</span>
+                        </div>
                     </div>
                     <div className="md:hidden">
                         <button className="text-gray-700 outline-none p-2 rounded-md focus:border-gray-400 focus:border"

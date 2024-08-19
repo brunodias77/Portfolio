@@ -9,11 +9,11 @@ import { TbBrandNextjs } from "react-icons/tb";
 const About = () => {
     return (
         <section id='about' className='bg-background_primary w-full md:static'>
-            <div className='items-center px-4 max-w-screen-xl mx-auto md:flex md:flex-col md:px-8'>
+            <div className='items-center p-7 max-w-screen-xl mx-auto md:flex md:flex-col md:p-9'>
                 <SectionTitle title='Sobre' />
                 <div className="flex flex-col justify-center items-center  lg:items-start lg:flex-row gap-10">
                     <div className="md:w-1/2 flex flex-col items-center gap-4">
-                        <h1 className="text-2xl font-bold mb-6 text-white">Get to know me!</h1>
+                        <h1 className="text-2xl font-bold mb-6 text-white">Conheça um pouco mais sobre mim!</h1>
                         <p className="text-text_gray_100 mt-2 text-base text-initial text-justify">
                             Olá! Eu sou o Bruno Dias, um entusiasta de tecnologia de 28 anos, formado em Sistemas de Informação pelo UNIVEM - Centro Universitário Eurípides de Marília. Minha paixão é criar experiências web envolventes e funcionais. No mundo do Front-End, utilizo o poderoso ReactJS para desenvolver interfaces interativas, enquanto no Back-End, utilizo todo o ecossistema C#/.NET, acredito no impacto transformador da tecnologia para tornar ideias realidade, e estou sempre em busca de desafios para impulsionar meu crescimento profissional. Vamos construir algo incrível juntos!
                         </p>

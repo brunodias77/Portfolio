@@ -13,7 +13,7 @@ const Welcome = () => {
                     <span className="text-5xl lg:text-7xl text-white font-black ">Developer</span>
                     <span className=" text-xs md:text-sm text-text_gray_100 mt-4 leading-7 text-justify px-16">Sou um desenvolvedor brasileiro fascinado por tecnologia, apaixonado por criar sites e aplicações web inovadoras.</span>
                     <div id="buttons" className="">
-                        <a href="currículoBrunoDias.pdf" download>
+                        <a href="currículoBrunoDias.docx" download>
                             <button className="bg-green_400 hover:brightness-75 rounded-md px-1 py-2 md:px-5 mt-5 text-black">Download cv</button>
                         </a>
                         <button className="border rounded-md px-1 md:px-5 py-2 mt-5 text-white ml-5">Contato</button>

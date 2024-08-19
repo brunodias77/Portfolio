@@ -3,6 +3,7 @@ import React, { useState } from 'react';
 import { useKeenSlider } from "keen-slider/react"
 import "keen-slider/keen-slider.min.css";
 import CardProject from './card-project';
+import SectionTitle from '../section-title';
 
 
 const Projects = () => {
@@ -20,7 +21,8 @@ const Projects = () => {
 
     return (
         <div className='bg-background_primary w-full md:static '>
-            <div className='items-center px-4 max-w-screen-xl mx-auto md:flex md:px-8 '>
+            <div className='flex flex-col items-center p-7 max-w-screen-xl mx-auto md:flex md:p-9 '>
+                <SectionTitle title="Projetos" />
                 <div className="navigation-wrapper w-full">
                     <div ref={sliderRef} className='keen-slider'>
                         <CardProject />
@@ -63,7 +65,7 @@ function Arrow(props: {
     return (
         <svg
             onClick={props.onClick}
-            className={`absolute left-0 top-1/2 transform -translate-y-1/2 arrow ${props.left ? "arrow--left" : "arrow--right"
+            className={`absolute left-0 top-1/2 transform -translate-y-1/2 arrow ${props.left ? "-left-10 " : "left-auto -right-10"
                 } ${disabled}`}
             xmlns="http://www.w3.org/2000/svg"
             viewBox="0 0 24 24"
